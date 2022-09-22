@@ -1,2 +1,2 @@
-# react-dashboard-
-react-bootstrap admin dashboard
+# rinor-dashboard-
+react-antd admin dashboard
