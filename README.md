@@ -1,2 +1,2 @@
-# rinor-dashboard-
-react-antd admin dashboard
+# rinor-erp-
+react-mui admin dashboard
