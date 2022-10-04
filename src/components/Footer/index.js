@@ -18,9 +18,7 @@ function Footer() {
         justifyContent="space-between"
       >
         <Box>
-          <Typography variant="subtitle1">
-            &copy; © 2022 - RINOR ERP by Saqlain Shah
-          </Typography>
+          <Typography variant="subtitle1">&copy; 2022 - RINOR ERP</Typography>
         </Box>
         <Typography
           sx={{
@@ -28,13 +26,13 @@ function Footer() {
           }}
           variant="subtitle1"
         >
-          Crafted by{' '}
+          Developed by{' '}
           <Link
-            href="https://bloomui.com"
+            href="https://linktr.ee/saqlain_shah"
             target="_blank"
             rel="noopener noreferrer"
           >
-            BloomUI.com
+            Saqlain Shah
           </Link>
         </Typography>
       </Box>

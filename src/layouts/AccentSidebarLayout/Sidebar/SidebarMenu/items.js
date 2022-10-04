@@ -1,59 +1,160 @@
-import AnalyticsTwoToneIcon from '@mui/icons-material/AnalyticsTwoTone';
-import HealthAndSafetyTwoToneIcon from '@mui/icons-material/HealthAndSafetyTwoTone';
-import AssignmentIndTwoToneIcon from '@mui/icons-material/AssignmentIndTwoTone';
-import AccountTreeTwoToneIcon from '@mui/icons-material/AccountTreeTwoTone';
-import StorefrontTwoToneIcon from '@mui/icons-material/StorefrontTwoTone';
 import VpnKeyTwoToneIcon from '@mui/icons-material/VpnKeyTwoTone';
-import ErrorTwoToneIcon from '@mui/icons-material/ErrorTwoTone';
-import DesignServicesTwoToneIcon from '@mui/icons-material/DesignServicesTwoTone';
-import SupportTwoToneIcon from '@mui/icons-material/SupportTwoTone';
-import ReceiptTwoToneIcon from '@mui/icons-material/ReceiptTwoTone';
-import BackupTableTwoToneIcon from '@mui/icons-material/BackupTableTwoTone';
+import PersonIcon from '@mui/icons-material/Person';
 import SmartToyTwoToneIcon from '@mui/icons-material/SmartToyTwoTone';
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 
 const menuItems = [
   {
     heading: 'General',
     items: [
       {
-        name: 'Blueprints',
-        icon: BackupTableTwoToneIcon,
-        link: '',
+        name: 'Booking Management',
+        icon: AddCircleOutlineIcon,
+        link: '/booking',
         items: [
           {
-            name: 'Extended sidebar',
-            link: '/extended-sidebar/dashboards',
-            badge: 'v3.0',
-            badgeTooltip: 'Added in version 3.0'
+            name: 'New Booking ',
+            link: '/booking/new-booking'
           },
           {
-            name: 'Accent header',
-            link: '/accent-header/dashboards',
-            badge: '',
-            badgeTooltip: 'Updated'
+            name: 'Refund',
+            link: '/booking/refund'
           },
           {
-            name: 'Accent sidebar',
-            link: '/accent-sidebar/dashboards'
+            name: 'reschedule',
+            link: '/booking/reschedule'
           },
           {
-            name: 'Boxed sidebar',
-            link: '/boxed-sidebar/dashboards'
-          },
-          {
-            name: 'Collapsed sidebar',
-            link: '/collapsed-sidebar/dashboards'
-          },
-          {
-            name: 'Bottom navigation',
-            link: '/bottom-navigation/dashboards'
-          },
-          {
-            name: 'Top navigation',
-            link: '/top-navigation/dashboards'
+            name: 'Booking History',
+            link: '/booking/booking-history'
           }
         ]
       },
+
+      {
+        name: 'Client Management',
+        icon: PersonIcon,
+        link: '/client',
+        items: [
+          {
+            name: 'Register client',
+            link: '/client/register-client'
+          },
+          {
+            name: 'View Client',
+            link: '/client/view-client'
+          },
+          {
+            name: 'Modify Client',
+            link: '/client/modify-client'
+          },
+          {
+            name: 'Search Client',
+            link: '/client/search-client'
+          },
+          {
+            name: 'Client Queries',
+            link: '/client/client-queries'
+          },
+          {
+            name: 'Client Bookings',
+            link: '/client/client-bookings'
+          },
+          {
+            name: 'Supplier Credentials',
+            link: '/client/supplier',
+            items: [
+              {
+                name: 'Basic',
+                link: '/client/supplier/basic'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Administration',
+        icon: AccountBalanceIcon,
+        items: [
+          {
+            name: 'Company Details',
+            items: [
+              {
+                name: 'Basic',
+                link: '/account'
+              }
+            ]
+          },
+          {
+            name: 'Staff Management',
+            link: '/staff-management',
+            items: [
+              {
+                name: 'Register Staff',
+                link: '/staff-management/register-staff'
+              },
+              {
+                name: 'Search Staff',
+                link: '/staff-management/search-staff'
+              },
+              {
+                name: 'Manage Roles',
+                link: '/staff-management/manage-roles'
+              },
+              {
+                name: 'Manage Teams',
+                link: '/staff-management/manage-teams'
+              },
+              {
+                name: 'Manage Deparments',
+                link: '/staff-management/manage-departments'
+              },
+              {
+                name: 'Manage Designation ',
+                link: '/staff-management/manage-designation'
+              },
+              {
+                name: 'Others',
+                link: '/staff-management/others'
+              }
+            ]
+          },
+          {
+            name: 'Supplier Credentials',
+            items: [
+              {
+                name: 'Basic',
+                link: '/account/register-basic'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Finance',
+        icon: VpnKeyTwoToneIcon,
+        link: '/finance',
+        items: [
+          {
+            name: 'inventory',
+            link: '/finace/inventory'
+          },
+          {
+            name: 'Expenses',
+            link: '/finace/inventory'
+          },
+          {
+            name: 'Salaries',
+            link: '/finace/inventory'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    heading: 'Admin Panels ',
+    items: [
       {
         name: 'Dashboards',
         icon: SmartToyTwoToneIcon,
@@ -142,253 +243,6 @@ const menuItems = [
             link: 'dashboards/tasks'
           }
         ]
-      },
-      {
-        name: 'Data Display',
-        icon: HealthAndSafetyTwoToneIcon,
-        badge: '',
-        badgeTooltip: 'Tokyo 3.0 contains over 250 new data display blocks',
-        link: '/accent-sidebar/blocks',
-        items: [
-          {
-            name: 'Charts large',
-            link: 'blocks/charts-large'
-          },
-          {
-            name: 'Charts small',
-            link: 'blocks/charts-small'
-          },
-          {
-            name: 'Composed cards',
-            link: 'blocks/composed-cards'
-          },
-          {
-            name: 'Grids',
-            link: 'blocks/grids'
-          },
-          {
-            name: 'Icon cards',
-            link: 'blocks/icon-cards'
-          },
-          {
-            name: 'Image cards',
-            link: 'blocks/image-cards'
-          },
-          {
-            name: 'Lists large',
-            link: 'blocks/lists-large'
-          },
-          {
-            name: 'Lists small',
-            link: 'blocks/lists-small'
-          },
-          {
-            name: 'Navigation',
-            link: 'blocks/navigation'
-          },
-          {
-            name: 'Profile cards',
-            link: 'blocks/profile-cards'
-          },
-          {
-            name: 'Progress circular',
-            link: 'blocks/progress-circular'
-          },
-          {
-            name: 'Progress horizontal',
-            link: 'blocks/progress-horizontal'
-          },
-          {
-            name: 'Sparklines large',
-            link: 'blocks/sparklines-large'
-          },
-          {
-            name: 'Sparklines small',
-            link: 'blocks/sparklines-small'
-          },
-          {
-            name: 'Statistics',
-            link: 'blocks/statistics'
-          }
-        ]
-      },
-      {
-        name: 'Applications',
-        icon: AnalyticsTwoToneIcon,
-        link: '/accent-sidebar/applications',
-        items: [
-          {
-            name: 'Calendar',
-            link: 'applications/calendar'
-          },
-          {
-            name: 'File Manager',
-            link: 'applications/file-manager'
-          },
-          {
-            name: 'Jobs Platform',
-            link: 'applications/jobs-platform'
-          },
-          {
-            name: 'Mailbox',
-            link: 'applications/mailbox/inbox'
-          },
-          {
-            name: 'Messenger',
-            link: 'applications/messenger'
-          },
-          {
-            name: 'Projects Board',
-            link: 'applications/projects-board'
-          }
-        ]
-      }
-    ]
-  },
-  {
-    heading: 'Management',
-    items: [
-      {
-        name: 'Users',
-        icon: AssignmentIndTwoToneIcon,
-        link: '/accent-sidebar/management/users',
-        items: [
-          {
-            name: 'List',
-            link: 'management/users/list'
-          },
-          {
-            name: 'User Profile',
-            link: 'management/users/single'
-          }
-        ]
-      },
-      {
-        name: 'Projects',
-        icon: AccountTreeTwoToneIcon,
-        link: '/accent-sidebar/management/projects/list'
-      },
-      {
-        name: 'Commerce',
-        icon: StorefrontTwoToneIcon,
-        link: '/accent-sidebar/management/commerce',
-        items: [
-          {
-            name: 'Shop',
-            link: 'management/commerce/shop'
-          },
-          {
-            name: 'List',
-            link: 'management/commerce/products/list'
-          },
-          {
-            name: 'Details',
-            link: 'management/commerce/products/single/1'
-          },
-          {
-            name: 'Create',
-            link: 'management/commerce/products/create'
-          }
-        ]
-      },
-      {
-        name: 'Invoices',
-        icon: ReceiptTwoToneIcon,
-        link: '/accent-sidebar/management/invoices',
-        items: [
-          {
-            name: 'List',
-            link: 'management/invoices/list'
-          },
-          {
-            name: 'Details',
-            link: 'management/invoices/single'
-          }
-        ]
-      }
-    ]
-  },
-  {
-    heading: 'Extra Pages',
-    items: [
-      {
-        name: 'Auth Pages',
-        icon: VpnKeyTwoToneIcon,
-        link: '/auth',
-        items: [
-          {
-            name: 'Login',
-            items: [
-              {
-                name: 'Basic',
-                link: '/account/login-basic'
-              },
-              {
-                name: 'Cover',
-                link: '/account/login-cover'
-              }
-            ]
-          },
-          {
-            name: 'Register',
-            items: [
-              {
-                name: 'Basic',
-                link: '/account/register-basic'
-              },
-              {
-                name: 'Cover',
-                link: '/account/register-cover'
-              },
-              {
-                name: 'Wizard',
-                link: '/account/register-wizard'
-              }
-            ]
-          },
-          {
-            name: 'Recover Password',
-            link: '/account/recover-password'
-          }
-        ]
-      },
-      {
-        name: 'Status',
-        icon: ErrorTwoToneIcon,
-        link: '/status',
-        items: [
-          {
-            name: 'Error 404',
-            link: '/status/404'
-          },
-          {
-            name: 'Error 500',
-            link: '/status/500'
-          },
-          {
-            name: 'Maintenance',
-            link: '/status/maintenance'
-          },
-          {
-            name: 'Coming Soon',
-            link: '/status/coming-soon'
-          }
-        ]
-      }
-    ]
-  },
-  {
-    heading: 'Foundation',
-    items: [
-      {
-        name: 'Overview',
-        link: '/overview',
-        icon: DesignServicesTwoToneIcon
-      },
-      {
-        name: 'Documentation',
-        icon: SupportTwoToneIcon,
-        link: '/docs'
       }
     ]
   }
