@@ -24,7 +24,7 @@ npm install`;
 
   const devBuild = `Compiled successfully!
 
-You can now view tokyo-white-react-admin-dashboard-js in the browser.
+You can now view Rinor ERP-white-react-admin-dashboard-js in the browser.
 
   Local:            http://localhost:3000
   On Your Network:  http://192.168.1.215:3000

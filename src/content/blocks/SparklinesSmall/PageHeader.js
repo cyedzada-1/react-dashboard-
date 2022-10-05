@@ -97,7 +97,7 @@ function PageHeader() {
         >
           <Box px={3} py={2} textAlign="center">
             <Typography gutterBottom variant="h4">
-              Tokyo
+              Rinor ERP
             </Typography>
             <Typography color="text.secondary" variant="h5">
               {t('Version 3.0')}

@@ -97,9 +97,10 @@ function Dependencies() {
             </Typography>
             <Typography paragraph>
               Some dependencies are only used for certain pages or sections.
-              Based on the pages/sections you'll be using from the Tokyo React
-              Admin Dashboard template, you can remove the unused dependencies
-              in order to keep things as fast and clean as possible.
+              Based on the pages/sections you'll be using from the Rinor ERP
+              React Admin Dashboard template, you can remove the unused
+              dependencies in order to keep things as fast and clean as
+              possible.
             </Typography>
             <Typography paragraph>
               For example, if you are not going to use the "Projects Board"

@@ -147,7 +147,7 @@ const menuItems = [
         name: 'Data Display',
         icon: HealthAndSafetyTwoToneIcon,
         badge: '',
-        badgeTooltip: 'Tokyo 3.0 contains over 250 new data display blocks',
+        badgeTooltip: 'Rinor ERP 3.0 contains over 250 new data display blocks',
         link: '/accent-sidebar/blocks',
         items: [
           {
@@ -380,7 +380,7 @@ const menuItems = [
         name: 'Data Display',
         icon: HealthAndSafetyTwoToneIcon,
         badge: '',
-        badgeTooltip: 'Tokyo 3.0 contains over 250 new data display blocks',
+        badgeTooltip: 'Rinor ERP 3.0 contains over 250 new data display blocks',
         link: '/accent-sidebar/blocks',
         items: [
           {

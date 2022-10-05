@@ -417,7 +417,7 @@ function Highlights() {
                 fontWeight="normal"
               >
                 {t(
-                  "Version 3.0 represents our biggest Tokyo update. We've added a brand new layout with 100% reworked and improved components. Check out the live preview to see them in action."
+                  "Version 3.0 represents our biggest Rinor ERP update. We've added a brand new layout with 100% reworked and improved components. Check out the live preview to see them in action."
                 )}
               </TypographySubHeading>
             </Grid>
@@ -776,7 +776,7 @@ function Highlights() {
                 fontWeight="normal"
               >
                 {t(
-                  'With Tokyo you can build apps for any purpose, from commerce to health or learning. We’ve got you covered!'
+                  'With Rinor ERP you can build apps for any purpose, from commerce to health or learning. We’ve got you covered!'
                 )}
               </TypographySubHeading>
             </Box>
@@ -812,7 +812,7 @@ function Highlights() {
                 fontWeight="normal"
               >
                 {t(
-                  'Tokyo comes integrated with 13 dashboards split across multiple popular product niches'
+                  'Rinor ERP comes integrated with 13 dashboards split across multiple popular product niches'
                 )}
                 :
               </TypographySubHeading>
@@ -1581,7 +1581,7 @@ function Highlights() {
             fontWeight="normal"
           >
             {t(
-              'Some of the features that make Tokyo one of the best admin templates available today'
+              'Some of the features that make Rinor ERP one of the best admin templates available today'
             )}
           </TypographyH2>
         </Container>
@@ -1613,7 +1613,7 @@ function Highlights() {
               </Typography>
               <Typography variant="subtitle2">
                 {t(
-                  "We've built Tokyo using modern industry standards all packed under MUI (Material-UI) components"
+                  "We've built Rinor ERP using modern industry standards all packed under MUI (Material-UI) components"
                 )}
                 .
               </Typography>
@@ -1661,7 +1661,7 @@ function Highlights() {
                   </AvatarSuccess>
                   <ListItemText
                     primary={t(
-                      'Progressive Web App Optimized. You can view Tokyo offline on any screen size.'
+                      'Progressive Web App Optimized. You can view Rinor ERP offline on any screen size.'
                     )}
                   />
                 </ListItem>
@@ -1688,7 +1688,7 @@ function Highlights() {
                 <CardImageWrapper>
                   <img
                     src="/static/images/overview/performance.png"
-                    alt="Tokyo Performance"
+                    alt="Rinor ERP Performance"
                   />
                 </CardImageWrapper>
               </BlowWrapper>
@@ -1989,7 +1989,7 @@ function Highlights() {
             component="a"
             target="_blank"
             size="large"
-            href="https://www.figma.com/file/XVw1wWOvmpn3UljELShZi3/Tokyo-Admin-Dashboard"
+            href="https://www.figma.com/file/XVw1wWOvmpn3UljELShZi3/Rinor ERP-Admin-Dashboard"
             rel="noopener"
             variant="outlined"
           >
@@ -2091,7 +2091,7 @@ function Highlights() {
                     variant="subtitle2"
                   >
                     {t(
-                      'Besid Figma files, Tokyo also has included Sketch design files for certain pricing plans.'
+                      'Besid Figma files, Rinor ERP also has included Sketch design files for certain pricing plans.'
                     )}
                   </Typography>
                 </Box>

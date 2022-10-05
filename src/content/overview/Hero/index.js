@@ -212,7 +212,7 @@ function Hero() {
             <RouterLink to="/extended-sidebar/dashboards">
               <ImgWrapper>
                 <img
-                  alt="Tokyo"
+                  alt="Rinor ERP"
                   src="/static/images/overview/hero-screenshot.png"
                 />
               </ImgWrapper>

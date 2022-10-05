@@ -103,7 +103,7 @@ export default routes;`;
           </Grid>
           <Grid item xs={12}>
             <Typography paragraph>
-              The routing in Tokyo React Admin Dashboad uses{' '}
+              The routing in Rinor ERP React Admin Dashboad uses{' '}
               <code>react-router@6</code> and can be configured inside this
               file: <code>src\router.js</code>
             </Typography>

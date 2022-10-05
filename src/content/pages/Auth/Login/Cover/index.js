@@ -255,7 +255,8 @@ function LoginCover() {
                   title={t('Used only for the live preview demonstration !')}
                 >
                   <Alert severity="warning">
-                    Use <b>demo@example.com</b> and password <b>TokyoPass1@</b>
+                    Use <b>demo@example.com</b> and password{' '}
+                    <b>Rinor ERPPass1@</b>
                   </Alert>
                 </Tooltip>
               )}

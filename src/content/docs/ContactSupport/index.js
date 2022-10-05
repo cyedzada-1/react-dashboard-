@@ -49,7 +49,7 @@ function ContactSupport() {
               All you have to do is email us at support@bloomui.freshdesk.com
               with a wireframe, prototype or design for the requested pages.
               After our initial review, we will contact you and let you know if
-              we'll be integrating your custom page in Tokyo React Admin
+              we'll be integrating your custom page in Rinor ERP React Admin
               Dashboard.
             </Typography>
             <Typography paragraph>

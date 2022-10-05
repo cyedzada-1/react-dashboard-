@@ -86,8 +86,8 @@ const esJSON = {
   'Sign out': 'Desconectar',
   'Change Theme': 'Cambiar de tema',
   'View all notifications': 'Ver todas las notificaciones',
-  'Tokyo NextJS Typescript Admin Dashboard':
-    'Panel de administración de Tokyo React',
+  'Rinor ERP NextJS Typescript Admin Dashboard':
+    'Panel de administración de Rinor ERP React',
   'High performance React template built with lots of powerful Material-UI components across multiple product niches for fast & perfect apps development processes':
     'Plantilla React de alto rendimiento construida con una gran cantidad de poderosos componentes Material-UI en múltiples nichos de productos para procesos de desarrollo de aplicaciones rápidos y perfectos',
   'Browse Live Preview': 'Explorar vista previa en vivo',
@@ -98,7 +98,7 @@ const esJSON = {
   'management sections': 'secciones de gestión',
   'dark/light themes': 'temas oscuros / claros',
   components: 'componentes',
-  'Some of the features that make Tokyo one of the best admin templates available today':
+  'Some of the features that make Rinor ERP one of the best admin templates available today':
     'Algunas de las características que hacen de Tokio una de las mejores plantillas de administración disponibles en la actualidad',
   'Design Source Files': 'Diseñar archivos fuente',
   'Start working on your project directly from one of the included starter kits or use the Figma/Sketch files to create a prototype first':

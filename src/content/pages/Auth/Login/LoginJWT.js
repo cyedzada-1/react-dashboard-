@@ -27,7 +27,7 @@ const LoginJWT = () => {
     <Formik
       initialValues={{
         email: 'demo@example.com',
-        password: 'TokyoPass1@',
+        password: 'Rinor ERPPass1@',
         terms: true,
         submit: null
       }}

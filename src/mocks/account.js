@@ -12,7 +12,7 @@ const users = [
     email: 'demo@example.com',
     name: 'Saqlain Shah',
     jobtitle: 'MERN Stack Developer',
-    password: 'TokyoPass1@',
+    password: 'Rinor ERPPass1@',
     role: 'admin',
     posts: '27'
   }

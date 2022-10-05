@@ -86,7 +86,7 @@ const znJSON = {
   'Sign out': '登出',
   'Change Theme': '改变主题',
   'View all notifications': '查看所有通知',
-  'Tokyo NextJS Typescript Admin Dashboard': '东京React管理员仪表板',
+  'Rinor ERP NextJS Typescript Admin Dashboard': '东京React管理员仪表板',
   'High performance React template built with lots of powerful Material-UI components across multiple product niches for fast & perfect apps development processes':
     '高性能React模板由跨多个产品细分市场的大量功能强大的Material-UI组件构建，可实现快速，完美的应用程序开发流程',
   'Browse Live Preview': '浏览实时预览',
@@ -97,7 +97,7 @@ const znJSON = {
   'management sections': '管理部分',
   'dark/light themes': '深色/浅色主题',
   components: '成分',
-  'Some of the features that make Tokyo one of the best admin templates available today':
+  'Some of the features that make Rinor ERP one of the best admin templates available today':
     '使东京成为当今可用的最佳管理模板之一的一些功能',
   'Design Source Files': '设计源文件',
   'Start working on your project directly from one of the included starter kits or use the Figma/Sketch files to create a prototype first':
