@@ -155,7 +155,7 @@ function Hero() {
           </TypographyH2>
           <Button
             component={RouterLink}
-            to="/extended-sidebar/dashboards"
+            to="/accent-sidebar/dashboards"
             size="large"
             variant="contained"
           >

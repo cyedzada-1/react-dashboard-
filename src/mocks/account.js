@@ -10,7 +10,7 @@ const users = [
     location: 'Skardu',
     username: 'admin',
     email: 'demo@example.com',
-    name: 'Randy Smith',
+    name: 'Saqlain Shah',
     jobtitle: 'MERN Stack Developer',
     password: 'TokyoPass1@',
     role: 'admin',

@@ -51,7 +51,7 @@ function Overview() {
                 <LanguageSwitcher />
                 <Button
                   component={RouterLink}
-                  to="/extended-sidebar/dashboards"
+                  to="/accent-sidebar/dashboards"
                   variant="contained"
                   sx={{
                     ml: 2
