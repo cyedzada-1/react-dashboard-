@@ -12,6 +12,8 @@
     "no-underscore-dangle": "off",
     "prefer-const": "off",
     "radix": "off",
+    "no-unused-vars": "off",
+    "react/jsx-no-undef": "off",
     "prefer-destructuring": "off",
     "no-shadow": "off",
     "prettier/prettier": "off",
