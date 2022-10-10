@@ -18,6 +18,7 @@ import managementRoutes from './management';
 import documentationRoutes from './documentation';
 import accountRoutes from './account';
 import baseRoutes from './base';
+import bookingRoutes from './booking';
 
 const router = [
   {
@@ -83,11 +84,15 @@ const router = [
     children: [
       {
         path: '/',
-        element: <Navigate to="dashboards" replace />
+        element: <Navigate to="booking" replace />
       },
       {
         path: 'dashboards',
         children: dashboardsRoutes
+      },
+      {
+        path: 'booking',
+        children: bookingRoutes
       },
       {
         path: 'blocks',
