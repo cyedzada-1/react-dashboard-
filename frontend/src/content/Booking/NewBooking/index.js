@@ -119,6 +119,7 @@ const FORM_VALIDATION = Yup.object().shape({
     .required("The terms and conditions must be accepted."),
 });
 
+
 const Booking = () => {
   const classes = useStyles();
 

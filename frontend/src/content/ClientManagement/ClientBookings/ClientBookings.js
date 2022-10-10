@@ -7,3 +7,4 @@ function ClientBookings() {
 }
 
 export default ClientBookings
+

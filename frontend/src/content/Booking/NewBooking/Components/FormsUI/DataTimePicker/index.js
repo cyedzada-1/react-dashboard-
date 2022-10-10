@@ -8,6 +8,7 @@ const DateTimePicker = ({
 }) => {
   const [field, meta] = useField(name);
 
+  
   const configDateTimePicker = {
     ...field,
     ...otherProps,

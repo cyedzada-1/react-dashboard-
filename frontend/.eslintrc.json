@@ -9,6 +9,7 @@
     "requireConfigFile": false
   },
   "rules": {
+    
     "import/no-named-as-default":"off",
     "import/first":"off",
     "import/no-named-as-default-member":"off",

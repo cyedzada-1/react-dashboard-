@@ -7,3 +7,4 @@ function ClientQueries() {
 }
 
 export default ClientQueries
+
