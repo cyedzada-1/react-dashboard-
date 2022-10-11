@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "./Components/Header";
+
 import PageTitleWrapper from 'src/components/PageTitleWrapper';
 import { Helmet } from 'react-helmet-async';
 import { Grid , Container , Typography } from '@mui/material';
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { makeStyles } from "@material-ui/core/styles";
-import Textfield from "./Components/FormsUI/Textfield";
-import Select from "./Components/FormsUI/Select";
-import DateTimePicker from "./Components/FormsUI/DataTimePicker";
-import Checkbox from "./Components/FormsUI/Checkbox";
-import Button from "./Components/FormsUI/Button";
+import Textfield from "./FormsUI/Textfield";
+import Select from "./FormsUI/Select";
+import DateTimePicker from "./FormsUI/DataTimePicker";
+import Checkbox from "./FormsUI/Checkbox";
+import Button from "./FormsUI/Button";
 import countries from "./data/countries.json";
 import axios from "axios";
 
@@ -134,9 +134,7 @@ const Booking = () => {
         alignItems="stretch"
         spacing={4}
       >
-        <Grid item xs={12}>
-          <Header />
-        </Grid>
+      
         <Grid item xs={12}>
           <Container maxWidth="md">
             <div className={classes.formWrapper}>
