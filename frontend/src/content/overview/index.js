@@ -2,7 +2,7 @@ import { Box, Card, Container, Button, styled } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from 'src/layouts/BoxedSidebarLayout/Header/Buttons/LanguageSwitcher';
+
 import Footer from 'src/components/Footer';
 
 import Logo from 'src/components/LogoSign';
@@ -29,7 +29,7 @@ const OverviewWrapper = styled(Box)(
 );
 
 function Overview() {
-  const { t } = useTranslation();
+ 
 
   return (
     <OverviewWrapper>
@@ -47,19 +47,7 @@ function Overview() {
               flex={1}
             >
               <Box />
-              <Box>
-                <LanguageSwitcher />
-                <Button
-                  component={RouterLink}
-                  to="/accent-sidebar/dashboards"
-                  variant="contained"
-                  sx={{
-                    ml: 2
-                  }}
-                >
-                  {t('Live Preview')}
-                </Button>
-              </Box>
+           
             </Box>
           </Box>
         </Container>

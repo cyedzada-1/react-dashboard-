@@ -9,7 +9,7 @@
     "requireConfigFile": false
   },
   "rules": {
-    
+    " react/jsx-curly-brace-presence":"off"
     "import/no-named-as-default":"off",
     "import/first":"off",
     "import/no-named-as-default-member":"off",
